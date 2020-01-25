@@ -2108,7 +2108,6 @@
     <public type="layout" name="shutter_item_title" id="0x7f0b0092" />
     <public type="layout" name="shutter_speed_indicator" id="0x7f0b0093" />
     <public type="layout" name="shutter_speed_radio_preference_widget" id="0x7f0b0094" />
-    <public type="layout" name="supdefinition_view" id="0x7f0b0095" />
     <public type="layout" name="support_simple_spinner_dropdown_item" id="0x7f0b0096" />
     <public type="layout" name="surfacepreview_layout" id="0x7f0b0097" />
     <public type="layout" name="tab_item" id="0x7f0b0098" />
@@ -2561,7 +2560,6 @@
     <public type="string" name="speech_facebeauty_tips" id="0x7f0f01a9" />
     <public type="string" name="status_bar_notification_info_overflow" id="0x7f0f01aa" />
     <public type="string" name="storage_full" id="0x7f0f01ab" />
-    <public type="string" name="supdefinition_text" id="0x7f0f01ac" />
     <public type="string" name="super_definition_dialog_title" id="0x7f0f01ad" />
     <public type="string" name="time" id="0x7f0f01ae" />
     <public type="string" name="title" id="0x7f0f01af" />

@@ -313,8 +313,6 @@
 
 .field public static final shutter_speed_radio_preference_widget:I = 0x7f0b0094
 
-.field public static final supdefinition_view:I = 0x7f0b0095
-
 .field public static final support_simple_spinner_dropdown_item:I = 0x7f0b0096
 
 .field public static final surfacepreview_layout:I = 0x7f0b0097

@@ -60,7 +60,6 @@
     <string name = "video beauty face">com.freeme.camera.feature.mode.videobeautyface.VideoBeautyFaceModeEntry</string>
     <string name = "short video">com.freeme.camera.feature.mode.shortvideo.ShortVideoModeEntry</string>
     <string name = "slow motion">com.freeme.camera.feature.mode.slowmotion.SlowMotionEntry</string>
-    <string name = "super definition">com.freeme.camera.feature.mode.supdefinition.SupDefinitionEntry</string>
     <string name = "face cute">com.freeme.camera.feature.mode.facecute.FaceCuteEntry</string>
     <string name = "portrait">com.freeme.camera.feature.mode.portrait.PortraitEntry</string>
 </resources>

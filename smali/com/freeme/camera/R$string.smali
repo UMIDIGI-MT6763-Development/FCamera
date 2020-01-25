@@ -859,8 +859,6 @@
 
 .field public static final storage_full:I = 0x7f0f01ab
 
-.field public static final supdefinition_text:I = 0x7f0f01ac
-
 .field public static final super_definition_dialog_title:I = 0x7f0f01ad
 
 .field public static final time:I = 0x7f0f01ae
