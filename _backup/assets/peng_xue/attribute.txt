@@ -1,3 +1,0 @@
-{
-    "facePrimSize": 226
-}

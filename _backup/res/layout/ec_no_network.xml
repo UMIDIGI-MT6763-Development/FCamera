@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/ec_no_network_prompt" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:layout_gravity="center" android:layout_width="@dimen/ec_no_network_prompt_w" android:layout_height="@dimen/ec_no_network_prompt_h">
-        <ImageView android:layout_gravity="center|top" android:layout_width="fill_parent" android:layout_height="@dimen/ec_no_network_img_h" android:src="@drawable/ec_no_networking" />
-        <Button android:layout_gravity="bottom|center" android:id="@id/reload" android:background="@drawable/ec_no_network_btn" android:layout_width="@dimen/ec_no_network_btn_w" android:layout_height="@dimen/ec_no_network_btn_h" />
-    </FrameLayout>
-</FrameLayout>

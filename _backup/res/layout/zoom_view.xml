@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.freeme.camera.common.widget.RotateLayout android:id="@id/zoom_rotate_layout" style="@style/ZoomScreenLayout"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/zoom_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <TextView android:id="@id/zoom_ratio" style="@style/ZoomTextStyle" />
-    </RelativeLayout>
-</com.freeme.camera.common.widget.RotateLayout>

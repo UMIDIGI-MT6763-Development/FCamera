@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.freeme.camera.common.widget.RotateLayout android:id="@id/panorama_rotate_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/panorama_guid_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/panorama_guid_text" android:background="@drawable/hint_text_background" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="500.0dip" android:maxLines="1" android:layout_centerHorizontal="true" />
-    </RelativeLayout>
-</com.freeme.camera.common.widget.RotateLayout>

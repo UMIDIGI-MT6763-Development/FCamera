@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.freeme.camera.common.preference.SwitchPreference android:persistent="false" android:layout="@layout/freeme_camera_preference" android:title="@string/face_detection_title" android:key="key_face_detection" android:order="40" />
-</PreferenceScreen>

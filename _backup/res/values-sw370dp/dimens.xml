@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="camera_shutter_bar_title_gap">27.0dip</dimen>
-    <dimen name="preview_frame_root_notch_top_margin_16_9">40.0dip</dimen>
-    <dimen name="preview_frame_root_notch_top_margin_4_3">100.0dip</dimen>
-    <dimen name="shutter_item_text_width">40.0dip</dimen>
-    <dimen name="shutter_root_bottom_padding">86.0dip</dimen>
-</resources>

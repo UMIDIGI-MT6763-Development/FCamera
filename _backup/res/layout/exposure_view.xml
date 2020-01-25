@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.freeme.camera.feature.setting.exposure.ExposureView android:id="@id/exposure_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.freeme.camera.feature.setting.exposure.VerticalSeekBar android:id="@id/ev_seekbar" android:visibility="visible" android:layout_width="27.0dip" android:layout_height="132.0dip" android:maxHeight="2.0dip" android:minHeight="2.0dip" android:thumbOffset="0.0dip" android:progressTint="@color/freeme_new_main_color" android:progressBackgroundTint="@android:color/transparent" />
-</com.freeme.camera.feature.setting.exposure.ExposureView>

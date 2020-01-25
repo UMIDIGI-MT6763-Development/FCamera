@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceCategory android:title="@string/freeme_settings_capture_category" android:order="10" />
-    <PreferenceCategory android:title="@string/freeme_settings_general_category" android:order="110" />
-    <com.freeme.camera.common.preference.Preference android:persistent="false" android:layout="@layout/freeme_camera_preference" android:title="@string/about_camera_title" android:key="key_about_camera" android:order="131" android:widgetLayout="@layout/preference_widget_jump" />
-</PreferenceScreen>

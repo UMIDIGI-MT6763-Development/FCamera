@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/large_frame_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_centerInParent="true" style="@style/PanoPreviewLayout"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/large_preview_indicator" />
-</RelativeLayout>
