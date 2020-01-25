@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin
+    id="portraitplugin"
+    name="portrait"
+    version="1">
+
+    <extension
+        id="portrait"
+        name="portrait extension"
+        class="com.freeme.camera.feature.mode.portrait.PortraitEntry"
+        plugin-id="cameraplugin"
+        point-id="FeatureEntryBase">
+    </extension>
+</plugin>

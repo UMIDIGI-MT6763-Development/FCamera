@@ -1,0 +1,40 @@
+{
+    "filterGroups":[
+        {
+            "file":"lsq_filter_test_183.gfilter",
+            "name":"lsq_filter_group_test",
+            "default_filter_id":0,
+            "type":0,
+            "filters":[
+                {
+                    "id":1053,
+                    "name":"lsq_filter_Nature_2_1",
+                    "color":"#E9807E",
+                    "args":{
+                        "smoothing":0.3,
+                        "mixied":1,
+                        "whitening":0
+                    }
+                }
+            ]
+        }
+    ],
+    "stickerCategories":[
+        {
+            "id":1,
+            "name":"lsq_sticker_cate_default"
+        },
+        {
+            "id":2,
+            "name":"lsq_sticker_cate_mood"
+        },
+        {
+            "id":3,
+            "name":"lsq_sticker_cate_watermark"
+        }
+    ],
+    "stickerGroups":[
+        
+    ],
+    "master":"6MMjSivE54IGSkpVG04qr5oads1eiRJBdFX6ipGd4JbL7s3bA\/g68nKLEzO5BEc+61hG6Vl6cqJa3Ver\/nxWorIi4Hj9SWl+N5GrJgE\/bGSIRIVfBI\/qrhtweoG6bZqEL0CNvxRoMRREMmnSp2u4ztGDWEagQSaYIrzAqcQbtkdkqKDaU6x2nY440aRXRHBuokPUAYIalTlpciZc9gKNjS9z1sXUa4t7hZvigvQoBA0JN0lbLsMntPazuMVvnDibylUMv6NmbjLkz7no0hlhgcNz9BrBns7UJNPXM9hWdTz2tE9EHp0G23cbnHlBD22L7yGpOJvs88NKGPYr6sFM\/bVhZvsHeOag2bqxY23qRQ2KZ4hxP9aqXeSUQx+Lwlp+lHdkpaElLI6albAiR487tfgq8I6r7aHTD5v3PlUV+oL7RO0ajWSOxw2j3ifkuwKe\/otjnNrBXPVuiKoFgjVFSVUR3MwyfX7n53C4pk4jXufSHT9hVU8pZkvVjIdKP\/eO0XQBELbWWdlXZK2huo1Ko0HOhRyKz98nhiZDjOaUGKsxrBFapCaEfe\/DC74PZHhcRuANL11E8bOPq0ZfBcehG\/Lt\/T23mZQId6X4KTB3CYWVr3Kr3VayKNV7Pp\/kTdp8fgl4V9GtpmChTJ+I7MRmMkaDB0qie\/5v2+1MCTwtE9dQxNn5lx6uwdebGuGsd3db7+oECFkbrMPC7hSgApuoKlUuxroS6ApToT5OGqw\/IAefMcMRWn7C6+GF76bZ2jFLNcLPMq0\/+JaHuAYxKKurJ3VcpUsiJlcvV37\/x3OAKBB25zNOdY12\/fH4MTFkOwrXjXsABMOmeL1wfb5l18U8LEXHAtXuDRWBfp0EuYZRzXWEVXUFO8u7nVWFvG8YFY3Qs\/3FRRYnjDxR\/6lUhep4kQAPjNiV5BI+egAj\/ajjNj+F+wjDFjOnGhhPsSnYWXPCYAPpCo+rgPqNVDEsSPTQzZeglSAfrCtLpiHs\/Ok2ywGq7ta3o3\/yjFZptVsi4LxauMebkn8TYqWIT0svqUx5lwFf1x62axThkuxQ4uY7XTw=5BDCADE304"
+}

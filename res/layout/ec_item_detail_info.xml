@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/ec_preview_bg" android:layout_width="@dimen/ec_preview_bg_w" android:layout_height="@dimen/ec_preview_bg_h"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="@dimen/ec_item_pageview_w" android:layout_height="@dimen/ec_item_pageview_h">
+        <android.support.v4.view.ViewPager android:layout_gravity="center" android:id="@id/item_detail_pager" android:persistentDrawingCache="animation" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <Button android:layout_gravity="center|left" android:id="@id/previous" android:background="@drawable/ec_previous_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" style="?android:buttonStyleSmall" />
+        <Button android:layout_gravity="center|right" android:id="@id/next" android:background="@drawable/ec_next_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" style="?android:buttonStyleSmall" />
+    </FrameLayout>
+    <FrameLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <Button android:textAppearance="?android:textAppearanceMedium" android:textColor="@drawable/ec_download_bar_color" android:gravity="center" android:layout_gravity="center" android:id="@id/ec_download_btn" android:background="@drawable/ec_preview_download_btn" android:layout_width="@dimen/ec_item_download_bar_w" android:layout_height="@dimen/ec_item_download_bar_h" android:text="@string/ec_download" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/ec_progress_root" android:visibility="gone" android:layout_width="@dimen/ec_item_download_bar_w" android:layout_height="@dimen/ec_item_download_bar_h">
+            <ProgressBar android:layout_gravity="center" android:id="@id/ec_download_pb" android:background="@drawable/ec_preview_downloading_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:progressDrawable="@drawable/ec_preview_progressbar" style="?android:progressBarStyleHorizontal" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/progress_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/ec_download_prompt" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

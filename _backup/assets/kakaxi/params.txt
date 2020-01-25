@@ -1,0 +1,49 @@
+{
+    "itemList": [
+        {
+            "resName": [
+                {
+                    "name": "hair0.png"
+                },
+                {
+                    "name": "hair1.png"
+                },
+                {
+                    "name": "hair2.png"
+                },
+                {
+                    "name": "hair3.png"
+                },
+                {
+                    "name": "hair4.png"
+                },
+                {
+                    "name": "hair5.png"
+                }
+            ],
+            "resClipWidth": 450,
+            "resClipHeight": 350,
+            "referPoint": "nose",
+            "anchorXOffset": 20,
+            "anchorYOffset": 260,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        },
+        {
+            "resName": [
+                {
+                    "name": "eyes.png"
+                }
+            ],
+            "resClipWidth": 60,
+            "resClipHeight": 60,
+            "referPoint": "rightEye",
+            "anchorXOffset": 0,
+            "anchorYOffset": 0,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        }
+    ]
+}

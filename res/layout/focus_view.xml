@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.freeme.camera.feature.setting.focus.FocusView android:id="@id/focus_view" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="152.25dip" android:layout_height="152.25dip">
+        <android.support.v7.widget.AppCompatImageView android:id="@id/focus_ring" android:visibility="invisible" android:layout_width="62.75dip" android:layout_height="62.75dip" android:layout_centerInParent="true" app:srcCompat="@drawable/ic_continue_focus_success" />
+        <RelativeLayout android:id="@id/expand_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="132.0dip" android:layout_toRightOf="@id/focus_ring" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</com.freeme.camera.feature.setting.focus.FocusView>

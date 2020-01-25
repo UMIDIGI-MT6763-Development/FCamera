@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/freeme_opt_container" android:background="#60000000" android:layout_width="fill_parent" android:layout_height="@dimen/freeme_gallery_bottom_bar_height" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/freeme_gallery_shared" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="25.0dip" android:src="@drawable/freeme_gallery_shared_btn" android:layout_alignParentRight="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/freeme_gallery_deleted" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:src="@drawable/freeme_gallery_deleted_btn" android:layout_alignParentLeft="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

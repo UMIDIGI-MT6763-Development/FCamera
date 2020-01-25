@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="camera_iko_flash_margin_bottom">45.0dip</dimen>
+    <dimen name="camera_shutter_bar_title_gap">23.0dip</dimen>
+    <dimen name="camera_shutter_margin_bottom">25.0dip</dimen>
+    <dimen name="camera_switch_margin_bottom">40.0dip</dimen>
+    <dimen name="camera_thumbnail_margin_bottom">40.0dip</dimen>
+    <dimen name="camera_topbar_mode_top_margin">35.0dip</dimen>
+    <dimen name="camera_topbar_top_bottom_margin_16_9">5.0dip</dimen>
+    <dimen name="camera_topbar_top_bottom_margin_4_3">22.0dip</dimen>
+    <dimen name="preview_frame_root_notch_top_margin_16_9">70.0dip</dimen>
+    <dimen name="preview_frame_root_notch_top_margin_4_3">112.0dip</dimen>
+    <dimen name="preview_frame_root_top_margin_16_9">58.0dip</dimen>
+    <dimen name="preview_frame_root_top_margin_4_3">100.0dip</dimen>
+    <dimen name="review_layout_btn_retake_margin_bottom">48.0dip</dimen>
+    <dimen name="shutter_item_text_width">70.0dip</dimen>
+    <dimen name="shutter_root_bottom_padding">101.0dip</dimen>
+    <dimen name="srceen_2340_1080_preview_16_9_notch_top_margin">70.0dip</dimen>
+    <dimen name="srceen_2340_1080_preview_4_3_notch_top_margin">115.0dip</dimen>
+    <dimen name="srceen_2340_1080_preview_11_9_notch_top_margin">150.0dip</dimen>
+</resources>

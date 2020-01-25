@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/facebeauty_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:id="@id/mode_button_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginBottom="8.0dip" android:drawableRight="@drawable/mode_setting_pop_down" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/Degree_layout" android:background="@drawable/setting_second_pop_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/mode_degree_layout_height" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/mode_layout" android:background="@drawable/setting_second_pop_bg" android:layout_width="fill_parent" android:layout_height="@dimen/mode_bf_bar_height">
+        <com.freeme.camera.feature.mode.beautyface.RotateLayout android:layout_gravity="center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/degree_view" android:layout_width="@dimen/setting_adust_view_width" android:layout_height="@dimen/setting_adust_view_height">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/degreeiv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/freeme_beauty_level" />
+                <TextView android:textSize="@dimen/hct_shutter_title_size" android:textColor="@drawable/stretch_list_item_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/Degree" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pref_facebeauty_level_title" android:singleLine="true" android:includeFontPadding="false" />
+            </LinearLayout>
+        </com.freeme.camera.feature.mode.beautyface.RotateLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/item_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

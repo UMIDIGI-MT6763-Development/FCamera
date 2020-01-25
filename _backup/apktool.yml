@@ -1,0 +1,129 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: FCamera.apk
+compressionType: false
+doNotCompress:
+- dex
+- arsc
+- META-INF/android.arch.core_runtime.version
+- META-INF/android.arch.lifecycle_livedata-core.version
+- META-INF/android.arch.lifecycle_livedata.version
+- META-INF/android.arch.lifecycle_runtime.version
+- META-INF/android.arch.lifecycle_viewmodel.version
+- META-INF/androidx.appcompat_appcompat.version
+- META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version
+- META-INF/androidx.coordinatorlayout_coordinatorlayout.version
+- META-INF/androidx.core_core.version
+- META-INF/androidx.cursoradapter_cursoradapter.version
+- META-INF/androidx.customview_customview.version
+- META-INF/androidx.documentfile_documentfile.version
+- META-INF/androidx.drawerlayout_drawerlayout.version
+- META-INF/androidx.fragment_fragment.version
+- META-INF/androidx.interpolator_interpolator.version
+- META-INF/androidx.legacy_legacy-support-core-ui.version
+- META-INF/androidx.legacy_legacy-support-core-utils.version
+- META-INF/androidx.loader_loader.version
+- META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version
+- META-INF/androidx.print_print.version
+- META-INF/androidx.recyclerview_recyclerview.version
+- META-INF/androidx.slidingpanelayout_slidingpanelayout.version
+- META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version
+- META-INF/androidx.vectordrawable_vectordrawable-animated.version
+- META-INF/androidx.vectordrawable_vectordrawable.version
+- META-INF/androidx.versionedparcelable_versionedparcelable.version
+- META-INF/androidx.viewpager_viewpager.version
+- txt
+- png
+- so
+- ogg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '23'
+  targetSdkVersion: '29'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  publicsuffixes.gz: '0'
+  com/badlogic/gdx.gwt.xml: '8'
+  com/badlogic/gdx/graphics/g3d/particles/particles.fragment.glsl: '8'
+  com/badlogic/gdx/graphics/g3d/particles/particles.vertex.glsl: '8'
+  com/badlogic/gdx/graphics/g3d/shaders/default.fragment.glsl: '8'
+  com/badlogic/gdx/graphics/g3d/shaders/default.vertex.glsl: '8'
+  com/badlogic/gdx/graphics/g3d/shaders/depth.fragment.glsl: '8'
+  com/badlogic/gdx/graphics/g3d/shaders/depth.vertex.glsl: '8'
+  com/badlogic/gdx/utils/arial-15.fnt: '8'
+  com/badlogic/gdx/utils/arial-15.png: '0'
+  javax/annotation/CheckForNull.java: '8'
+  javax/annotation/CheckForSigned.java: '8'
+  javax/annotation/CheckReturnValue.java: '8'
+  javax/annotation/Detainted.java: '8'
+  javax/annotation/MatchesPattern.java: '8'
+  javax/annotation/Nonnegative.java: '8'
+  javax/annotation/Nonnull.java: '8'
+  javax/annotation/Nullable.java: '8'
+  javax/annotation/OverridingMethodsMustInvokeSuper.java: '8'
+  javax/annotation/ParametersAreNonnullByDefault.java: '8'
+  javax/annotation/ParametersAreNullableByDefault.java: '8'
+  javax/annotation/PropertyKey.java: '8'
+  javax/annotation/RegEx.java: '8'
+  javax/annotation/Signed.java: '8'
+  javax/annotation/Syntax.java: '8'
+  javax/annotation/Tainted.java: '8'
+  javax/annotation/Untainted.java: '8'
+  javax/annotation/WillClose.java: '8'
+  javax/annotation/WillCloseWhenClosed.java: '8'
+  javax/annotation/WillNotClose.java: '8'
+  javax/annotation/concurrent/GuardedBy.java: '8'
+  javax/annotation/concurrent/Immutable.java: '8'
+  javax/annotation/concurrent/NotThreadSafe.java: '8'
+  javax/annotation/concurrent/ThreadSafe.java: '8'
+  javax/annotation/meta/Exclusive.java: '8'
+  javax/annotation/meta/Exhaustive.java: '8'
+  javax/annotation/meta/TypeQualifier.java: '8'
+  javax/annotation/meta/TypeQualifierDefault.java: '8'
+  javax/annotation/meta/TypeQualifierNickname.java: '8'
+  javax/annotation/meta/TypeQualifierValidator.java: '8'
+  javax/annotation/meta/When.java: '8'
+  mf/javax/xml/license.txt: '8'
+  mf/org/apache/xerces/dom/org.apache.xerces.dom.DOMImplementationSourceImpl: '8'
+  mf/org/apache/xerces/dom/org.w3c.dom.DOMImplementationSourceList: '8'
+  mf/org/apache/xerces/impl/msg/DOMMessages.properties: '8'
+  mf/org/apache/xerces/impl/msg/DatatypeMessages.properties: '8'
+  mf/org/apache/xerces/impl/msg/JAXPValidationMessages.properties: '8'
+  mf/org/apache/xerces/impl/msg/SAXMessages.properties: '8'
+  mf/org/apache/xerces/impl/msg/XIncludeMessages.properties: '8'
+  mf/org/apache/xerces/impl/msg/XMLMessages.properties: '8'
+  mf/org/apache/xerces/impl/msg/XMLSchemaMessages.properties: '8'
+  mf/org/apache/xerces/impl/msg/XMLSerializerMessages.properties: '8'
+  mf/org/apache/xerces/impl/msg/XPointerMessages.properties: '8'
+  mf/org/apache/xerces/impl/xpath/regex/message.properties: '8'
+  mf/org/apache/xerces/impl/xpath/regex/message_fr.properties: '8'
+  mf/org/apache/xerces/impl/xpath/regex/message_ja.properties: '8'
+  mf/org/apache/xerces/jaxp/javax.xml.parsers.DocumentBuilderFactory: '0'
+  mf/org/apache/xerces/jaxp/javax.xml.parsers.SAXParserFactory: '0'
+  mf/org/apache/xerces/jaxp/datatype/javax.xml.datatype.DatatypeFactory: '8'
+  mf/org/apache/xerces/jaxp/validation/javax.xml.validation.SchemaFactory: '0'
+  mf/org/apache/xerces/parsers/org.apache.xerces.xni.parser.DTDConfiguration: '0'
+  mf/org/apache/xerces/parsers/org.apache.xerces.xni.parser.XML11Configuration: '0'
+  mf/org/apache/xerces/parsers/org.apache.xerces.xni.parser.XMLParserConfiguration: '8'
+  mf/org/apache/xerces/parsers/org.xml.sax.driver: '8'
+  mf/org/apache/xerces/stax/javax.xml.stream.XMLEventFactory: '0'
+  mf/org/apache/xml/resolver/LICENSE.resolver.txt: '8'
+  mf/org/apache/xml/resolver/NOTICE-resolver.txt: '8'
+  mf/org/apache/xml/resolver/Version.src: '8'
+  mf/org/apache/xml/serialize/HTMLEntities.res: '8'
+  org/apache/log4j/lf5/config/defaultconfig.properties: '8'
+  org/apache/log4j/lf5/viewer/images/channelexplorer_new.gif: '0'
+  org/apache/log4j/lf5/viewer/images/channelexplorer_satellite.gif: '0'
+  org/apache/log4j/lf5/viewer/images/lf5_small_icon.gif: '0'
+  org/apache/log4j/xml/log4j.dtd: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1_0303
+versionInfo:
+  versionCode: '908'
+  versionName: 9.0.03_908

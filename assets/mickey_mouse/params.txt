@@ -1,0 +1,37 @@
+{
+    "itemList": [
+        {
+            "resName": [
+                {
+                    "name": "ear01.png"
+                },
+                {
+                    "name": "ear02.png"
+                }
+            ],
+            "resClipWidth": 400,
+            "resClipHeight": 220,
+            "referPoint": "eyesCenter",
+            "anchorXOffset": 0,
+            "anchorYOffset": 200,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        },
+        {
+            "resName": [
+                {
+                    "name": "cheek.png"
+                }
+            ],
+            "resClipWidth": 260,
+            "resClipHeight": 135,
+            "referPoint": "nose",
+            "anchorXOffset": 0,
+            "anchorYOffset": 24,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        }
+    ]
+}

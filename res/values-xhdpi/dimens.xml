@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="freeme_iko_flash_height">40.0dip</dimen>
+    <dimen name="freeme_iko_flash_margin_left">117.0dip</dimen>
+    <dimen name="freeme_iko_flash_margin_right">117.0dip</dimen>
+    <dimen name="freeme_iko_flash_width">40.0dip</dimen>
+    <dimen name="freeme_navigation_bar_height">48.0dip</dimen>
+    <dimen name="freeme_setting_preferce_height">53.0dip</dimen>
+    <dimen name="freeme_setting_preferce_title_textsize">16.0dip</dimen>
+    <dimen name="freeme_switch_camera_margin_left">117.0dip</dimen>
+    <dimen name="freeme_thumbnail_animation_height">40.0dip</dimen>
+    <dimen name="freeme_thumbnail_animation_width">40.0dip</dimen>
+    <dimen name="freeme_thumbnail_height">40.0dip</dimen>
+    <dimen name="freeme_thumbnail_margin_right">117.0dip</dimen>
+    <dimen name="freeme_thumbnail_width">40.0dip</dimen>
+    <dimen name="hct_shutter_title_size">13.0dip</dimen>
+    <dimen name="preview_frame_root_notch_top_margin_16_9">35.0dip</dimen>
+    <dimen name="preview_frame_root_notch_top_margin_4_3">69.0dip</dimen>
+</resources>

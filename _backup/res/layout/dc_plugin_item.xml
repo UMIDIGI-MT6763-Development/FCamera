@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="@dimen/dc_elements_center_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/preview_icon" android:layout_width="@dimen/dc_thumbnail_w" android:layout_height="@dimen/dc_thumbnail_h" android:src="@drawable/dc_plugin_preview_default" />
+        <ImageView android:layout_gravity="center" android:id="@id/installing" android:background="@anim/dc_installing" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <Button android:textAppearance="?android:textAppearanceSmall" android:textColor="@drawable/ec_download_bar_color" android:gravity="center" android:layout_gravity="center" android:id="@id/dc_install" android:background="@drawable/ec_down_btn" android:layout_width="@dimen/ec_download_small_w" android:layout_height="@dimen/ec_download_small_h" android:text="@string/ec_download" />
+</LinearLayout>

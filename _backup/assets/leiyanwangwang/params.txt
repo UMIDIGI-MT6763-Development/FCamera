@@ -1,0 +1,73 @@
+{
+    "itemList": [
+        {
+            "resName": [
+                {
+                    "name": "eyes.png"
+                }
+            ],
+            "resClipWidth": 245,
+            "resClipHeight": 120,
+            "referPoint": "nose",
+            "anchorXOffset": 0,
+            "anchorYOffset": 90,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1200
+        },
+        {
+            "resName": [
+                {
+                    "name": "saihong.png"
+                }
+            ],
+            "resClipWidth": 245,
+            "resClipHeight": 120,
+            "referPoint": "nose",
+            "anchorXOffset": 0,
+            "anchorYOffset": 0,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1200
+        },
+        {
+            "resName": [
+                {
+                    "name": "little_star.png"
+                }
+            ],
+            "resClipWidth": 108,
+            "resClipHeight": 150,
+            "referPoint": "leftEye",
+            "anchorXOffset": -116,
+            "anchorYOffset": 16,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1200
+        },
+        {
+            "resName": [
+                {
+                    "name": "paw01.png"
+                },
+                {
+                    "name": "paw02.png"
+                },
+                {
+                    "name": "paw03.png"
+                },
+                {
+                    "name": "paw04.png"
+                }
+            ],
+            "resClipWidth": 720,
+            "resClipHeight": 481,
+            "referPoint": "nose",
+            "anchorXOffset": 0,
+            "anchorYOffset": -188,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1200
+        }
+    ]
+}

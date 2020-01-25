@@ -1,0 +1,49 @@
+{
+    "itemList": [
+        {
+            "resName": [
+                {
+                    "name": "sweat.png"
+                }
+            ],
+            "resClipWidth": 40,
+            "resClipHeight": 80,
+            "referPoint": "rightEye",
+            "anchorXOffset": 98,
+            "anchorYOffset": 40,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        },
+        {
+            "resName": [
+                {
+                    "name": "eyebrow.png"
+                }
+            ],
+            "resClipWidth": 180,
+            "resClipHeight": 60,
+            "referPoint": "nose",
+            "anchorXOffset": 0,
+            "anchorYOffset": 130,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        },
+        {
+            "resName": [
+                {
+                    "name": "eyes.png"
+                }
+            ],
+            "resClipWidth": 230,
+            "resClipHeight": 80,
+            "referPoint": "eyesCenter",
+            "anchorXOffset": 0,
+            "anchorYOffset": 0,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        }
+    ]
+}

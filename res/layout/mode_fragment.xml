@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.freeme.camera.common.widget.RotateLayout android:id="@id/mode_fragment_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:background="#ef000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <TextView android:textSize="20.0sp" android:textColor="@android:color/white" android:id="@id/mode_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/mode_fragment_title" android:layout_alignParentTop="true" android:layout_centerInParent="true" />
+        <com.freeme.camera.common.widget.RotateImageView android:id="@id/setting_view" android:focusable="false" android:clickable="true" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginBottom="18.0dip" android:scaleType="centerInside" android:layout_alignParentBottom="true" android:layout_centerInParent="true" android:contentDescription="@string/accessibility_setting" app:srcCompat="@drawable/ic_freeme_setting" />
+        <android.support.v7.widget.RecyclerView android:id="@id/mode_list" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginBottom="9.5dip" android:layout_above="@id/setting_view" android:layout_below="@id/mode_title" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:overScrollMode="never" />
+    </RelativeLayout>
+</com.freeme.camera.common.widget.RotateLayout>

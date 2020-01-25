@@ -1,0 +1,140 @@
+.class Lcom/freeme/camera/feature/setting/dng/DngSettingView$1;
+.super Ljava/lang/Object;
+.source "DngSettingView.java"
+
+# interfaces
+.implements Landroid/preference/Preference$OnPreferenceChangeListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/freeme/camera/feature/setting/dng/DngSettingView;->loadView(Landroid/preference/PreferenceFragment;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/freeme/camera/feature/setting/dng/DngSettingView;
+
+.field final synthetic val$fragment:Landroid/preference/PreferenceFragment;
+
+
+# direct methods
+.method constructor <init>(Lcom/freeme/camera/feature/setting/dng/DngSettingView;Landroid/preference/PreferenceFragment;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/freeme/camera/feature/setting/dng/DngSettingView$1;->this$0:Lcom/freeme/camera/feature/setting/dng/DngSettingView;
+
+    iput-object p2, p0, Lcom/freeme/camera/feature/setting/dng/DngSettingView$1;->val$fragment:Landroid/preference/PreferenceFragment;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onPreferenceChange(Landroid/preference/Preference;Ljava/lang/Object;)Z
+    .locals 2
+
+    iget-object p1, p0, Lcom/freeme/camera/feature/setting/dng/DngSettingView$1;->this$0:Lcom/freeme/camera/feature/setting/dng/DngSettingView;
+
+    invoke-static {p1}, Lcom/freeme/camera/feature/setting/dng/DngSettingView;->access$000(Lcom/freeme/camera/feature/setting/dng/DngSettingView;)Lcom/freeme/camera/common/setting/ISettingManager$SettingDevice2Requester;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_0
+
+    iget-object p1, p0, Lcom/freeme/camera/feature/setting/dng/DngSettingView$1;->this$0:Lcom/freeme/camera/feature/setting/dng/DngSettingView;
+
+    invoke-static {p1}, Lcom/freeme/camera/feature/setting/dng/DngSettingView;->access$000(Lcom/freeme/camera/feature/setting/dng/DngSettingView;)Lcom/freeme/camera/common/setting/ISettingManager$SettingDevice2Requester;
+
+    move-result-object p1
+
+    invoke-interface {p1}, Lcom/freeme/camera/common/setting/ISettingManager$SettingDevice2Requester;->getCurrentCaptureSession()Lcom/freeme/camera/common/device/v2/Camera2CaptureSessionProxy;
+
+    move-result-object p1
+
+    if-nez p1, :cond_0
+
+    const/4 p1, 0x0
+
+    return p1
+
+    :cond_0
+    check-cast p2, Ljava/lang/Boolean;
+
+    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_1
+
+    iget-object p2, p0, Lcom/freeme/camera/feature/setting/dng/DngSettingView$1;->this$0:Lcom/freeme/camera/feature/setting/dng/DngSettingView;
+
+    invoke-static {p2}, Lcom/freeme/camera/feature/setting/dng/DngSettingView;->access$100(Lcom/freeme/camera/feature/setting/dng/DngSettingView;)Lcom/freeme/camera/common/preference/SwitchPreference;
+
+    move-result-object p2
+
+    iget-object v0, p0, Lcom/freeme/camera/feature/setting/dng/DngSettingView$1;->val$fragment:Landroid/preference/PreferenceFragment;
+
+    invoke-virtual {v0}, Landroid/preference/PreferenceFragment;->getActivity()Landroid/app/Activity;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    const v1, 0x7f0f0090
+
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p2, v0}, Lcom/freeme/camera/common/preference/SwitchPreference;->setContentDescription(Ljava/lang/CharSequence;)V
+
+    goto :goto_0
+
+    :cond_1
+    iget-object p2, p0, Lcom/freeme/camera/feature/setting/dng/DngSettingView$1;->this$0:Lcom/freeme/camera/feature/setting/dng/DngSettingView;
+
+    invoke-static {p2}, Lcom/freeme/camera/feature/setting/dng/DngSettingView;->access$100(Lcom/freeme/camera/feature/setting/dng/DngSettingView;)Lcom/freeme/camera/common/preference/SwitchPreference;
+
+    move-result-object p2
+
+    iget-object v0, p0, Lcom/freeme/camera/feature/setting/dng/DngSettingView$1;->val$fragment:Landroid/preference/PreferenceFragment;
+
+    invoke-virtual {v0}, Landroid/preference/PreferenceFragment;->getActivity()Landroid/app/Activity;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    const v1, 0x7f0f008f
+
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p2, v0}, Lcom/freeme/camera/common/preference/SwitchPreference;->setContentDescription(Ljava/lang/CharSequence;)V
+
+    :goto_0
+    iget-object p2, p0, Lcom/freeme/camera/feature/setting/dng/DngSettingView$1;->this$0:Lcom/freeme/camera/feature/setting/dng/DngSettingView;
+
+    invoke-static {p2}, Lcom/freeme/camera/feature/setting/dng/DngSettingView;->access$200(Lcom/freeme/camera/feature/setting/dng/DngSettingView;)Lcom/freeme/camera/feature/setting/dng/DngViewCtrl$OnDngSettingViewListener;
+
+    move-result-object p2
+
+    invoke-interface {p2, p1}, Lcom/freeme/camera/feature/setting/dng/DngViewCtrl$OnDngSettingViewListener;->onItemViewClick(Z)V
+
+    const/4 p1, 0x1
+
+    return p1
+.end method

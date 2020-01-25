@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/self_timer" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.freeme.camera.common.widget.RotateStrokeTextView android:enabled="false" android:textAppearance="?android:textAppearanceMedium" android:textSize="65.0sp" android:textColor="#ffffffff" android:id="@id/self_timer_num" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/freeme_timer_cancel" android:background="@drawable/freeme_cancel_ripple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/freeme_cancel_marginbottom" android:src="@drawable/freeme_ic_cancel" android:scaleType="center" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

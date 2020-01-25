@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:layout_width="@dimen/elements_center_thumbnail_width" android:layout_height="@dimen/elements_center_thumbnail_height">
+        <ImageView android:layout_gravity="center" android:id="@id/thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ec_default_thumbnail" />
+        <RelativeLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/ec_indicator_h">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@android:color/white" android:gravity="center" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/indicator" android:layout_width="@dimen/ec_indicator_w" android:layout_height="@dimen/ec_indicator_h" android:src="@drawable/ec_indicator_audio" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center" android:id="@id/thumbnail_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ec_thumbnail_cover" />
+        <ImageView android:layout_gravity="center" android:id="@id/thumbnail_loading" android:background="@anim/ec_childmode_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:layout_width="@dimen/ec_download_small_w" android:layout_height="@dimen/ec_download_small_h" android:layout_marginTop="7.0dip">
+        <Button android:textAppearance="?android:textAppearanceSmall" android:textColor="@drawable/ec_download_bar_color" android:gravity="center" android:layout_gravity="center" android:id="@id/ec_download" android:background="@drawable/ec_down_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/ec_download" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/ec_progress_root" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_gravity="center" android:id="@id/ec_download_pb" android:background="@drawable/ec_downloading_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:progressDrawable="@drawable/ec_thumbnail_progressbar" style="?android:progressBarStyleHorizontal" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/progress_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/ec_download_prompt" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

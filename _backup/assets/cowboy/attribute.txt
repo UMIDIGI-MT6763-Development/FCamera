@@ -1,0 +1,3 @@
+{
+    "facePrimSize": 230
+}

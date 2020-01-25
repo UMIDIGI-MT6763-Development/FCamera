@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.freeme.camera.common.widget.RotateImageView android:id="@id/wide_angle_switcher" android:background="@drawable/bg_popup_indicator_ultra_wide_intro" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" app:srcCompat="@drawable/freeme_wide_angle_button"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,73 @@
+{
+    "itemList": [
+        {
+            "resName": [
+                {
+                    "name": "ear_loop_01.png"
+                },
+                {
+                    "name": "ear_loop_02.png"
+                },
+                {
+                    "name": "ear_loop_03.png"
+                },
+                {
+                    "name": "ear_loop_04.png"
+                },
+                {
+                    "name": "ear_loop_05.png"
+                },
+                {
+                    "name": "ear_loop_06.png"
+                },
+                {
+                    "name": "ear_loop_07.png"
+                }
+            ],
+            "resClipWidth": 550,
+            "resClipHeight": 320,
+            "referPoint": "eyesCenter",
+            "anchorXOffset": 0,
+            "anchorYOffset": 224,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        },
+        {
+            "resName": [
+                {
+                    "name": "mustache01.png"
+                },
+                {
+                    "name": "mustache02.png"
+                },
+                {
+                    "name": "mustache03.png"
+                }
+            ],
+            "resClipWidth": 320,
+            "resClipHeight": 110,
+            "referPoint": "nose",
+            "anchorXOffset": 0,
+            "anchorYOffset": 0,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 2000
+        },
+        {
+            "resName": [
+                {
+                    "name": "tooth.png"
+                }
+            ],
+            "resClipWidth": 38,
+            "resClipHeight": 30,
+            "referPoint": "mouthCenter",
+            "anchorXOffset": 0,
+            "anchorYOffset": -14,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 2000
+        }
+    ]
+}

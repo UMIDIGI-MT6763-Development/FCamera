@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="false" android:fitsSystemWindows="true" android:clickable="false" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/freeme_setting_preferce_title_textsize" android:gravity="center" android:id="@id/restore_btn" android:background="@drawable/freeme_camera_settings_restore_bg" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/freeme_restor_button_margin" android:layout_marginRight="@dimen/freeme_restor_button_margin" android:text="@string/restore_settings_title" android:layout_marginHorizontal="@dimen/freeme_restor_button_margin" />
+</LinearLayout>

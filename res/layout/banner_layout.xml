@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/banner_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.freeme.elementscenter.dc.ui.AutoScrollLoopBanner android:layout_gravity="center" android:id="@id/banner" android:layout_width="fill_parent" android:layout_height="@dimen/banner_image_height" />
+    <com.freeme.elementscenter.dc.ui.BannerIndicator android:layout_gravity="bottom|center" android:id="@id/banner_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

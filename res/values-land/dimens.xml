@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
+    <dimen name="ec_deletebar_h">45.0dip</dimen>
+    <dimen name="ec_deletebar_w">390.0dip</dimen>
+    <dimen name="ec_offline_dl_h">50.0dip</dimen>
+    <dimen name="ec_offline_dl_w">400.0dip</dimen>
+</resources>

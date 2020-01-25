@@ -1,0 +1,46 @@
+{
+    "itemList": [
+        {
+            "resName": [
+                {
+                    "name": "hat0.png"
+                },
+                {
+                    "name": "hat1.png"
+                },
+                {
+                    "name": "hat2.png"
+                },
+                {
+                    "name": "hat4.png"
+                },
+                {
+                    "name": "hat5.png"
+                }
+            ],
+            "resClipWidth": 590,
+            "resClipHeight": 480,
+            "referPoint": "nose",
+            "anchorXOffset": 0,
+            "anchorYOffset": 160,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        },
+        {
+            "resName": [
+                {
+                    "name": "shame.png"
+                }
+            ],
+            "resClipWidth": 280,
+            "resClipHeight": 120,
+            "referPoint": "nose",
+            "anchorXOffset": 0,
+            "anchorYOffset": 0,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        }
+    ]
+}

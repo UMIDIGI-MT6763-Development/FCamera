@@ -1,0 +1,49 @@
+{
+    "itemList": [
+        {
+            "resName": [
+                {
+                    "name": "dunpai0.png"
+                },
+                {
+                    "name": "dunpai1.png"
+                },
+                {
+                    "name": "dunpai2.png"
+                },
+                {
+                    "name": "dunpai3.png"
+                },
+                {
+                    "name": "dunpai4.png"
+                },
+                {
+                    "name": "dunpai5.png"
+                }
+            ],
+            "resClipWidth": 400,
+            "resClipHeight": 400,
+            "referPoint": "nose",
+            "anchorXOffset": -160,
+            "anchorYOffset": -315,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        },
+        {
+            "resName": [
+                {
+                    "name": "tougui.png"
+                }
+            ],
+            "resClipWidth": 330,
+            "resClipHeight": 310,
+            "referPoint": "nose",
+            "anchorXOffset": 0,
+            "anchorYOffset": 150,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        }
+    ]
+}

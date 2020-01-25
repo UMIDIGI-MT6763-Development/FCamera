@@ -1,0 +1,79 @@
+{
+    "itemList": [
+        {
+            "resName": [
+                {
+                    "name": "mao_zi01.png"
+                },
+                {
+                    "name": "mao_zi02.png"
+                },
+                {
+                    "name": "mao_zi03.png"
+                }
+            ],
+            "resClipWidth": 500,
+            "resClipHeight": 300,
+            "referPoint": "eyesCenter",
+            "anchorXOffset": 0,
+            "anchorYOffset": 196,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        },
+        {
+            "resName": [
+                {
+                    "name": "wei_jin01.png"
+                },
+                {
+                    "name": "wei_jin02.png"
+                },
+                {
+                    "name": "wei_jin03.png"
+                }
+            ],
+            "resClipWidth": 500,
+            "resClipHeight": 300,
+            "referPoint": "nose",
+            "anchorXOffset": 0,
+            "anchorYOffset": -230,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        },
+        {
+            "resName": [
+                {
+                    "name": "yan01.png"
+                },
+                {
+                    "name": "yan02.png"
+                }
+            ],
+            "resClipWidth": 331,
+            "resClipHeight": 285,
+            "referPoint": "mouthCenter",
+            "anchorXOffset": -110,
+            "anchorYOffset": 114,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        },
+        {
+            "resName": [
+                {
+                    "name": "dao_ba.png"
+                }
+            ],
+            "resClipWidth": 120,
+            "resClipHeight": 120,
+            "referPoint": "nose",
+            "anchorXOffset": 80,
+            "anchorYOffset": 24,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        }
+    ]
+}

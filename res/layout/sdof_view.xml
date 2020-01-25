@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/sdof_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowColor="#bb000000"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/dof_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_above="@id/sdof_bottom_controls" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/sdof_bottom_controls" android:background="@drawable/setting_second_pop_bg" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/small_aperture" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/ic_sdof_small_aperture" android:layout_alignParentLeft="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <SeekBar android:id="@id/sdof_bar" android:visibility="gone" android:layout_width="260.0dip" android:layout_height="wrap_content" android:max="100" android:progress="1" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/big_aperture" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/ic_sdof_large_aperture" android:layout_alignParentRight="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

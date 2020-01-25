@@ -1,0 +1,133 @@
+{
+    "itemList": [
+        {
+            "resName": [
+                {
+                    "name": "hair0.png"
+                },
+                {
+                    "name": "hair1.png"
+                },
+                {
+                    "name": "hair2.png"
+                },
+                {
+                    "name": "hair3.png"
+                },
+                {
+                    "name": "hair4.png"
+                },
+                {
+                    "name": "hair5.png"
+                }
+            ],
+            "resClipWidth": 450,
+            "resClipHeight": 350,
+            "referPoint": "nose",
+            "anchorXOffset": 20,
+            "anchorYOffset": 260,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        },
+        {
+            "resName": [
+                {
+                    "name": "eyes.png"
+                }
+            ],
+            "resClipWidth": 60,
+            "resClipHeight": 60,
+            "referPoint": "rightEye",
+            "anchorXOffset": 0,
+            "anchorYOffset": 0,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        },
+        {
+            "resName": [
+                {
+                    "name": "flashing0.png"
+                },
+                {
+                    "name": "flashing1.png"
+                },
+                {
+                    "name": "flashing2.png"
+                },
+                {
+                    "name": "flashing3.png"
+                },
+                {
+                    "name": "flashing4.png"
+                },
+                {
+                    "name": "flashing5.png"
+                },
+                {
+                    "name": "flashing6.png"
+                },
+                {
+                    "name": "flashing7.png"
+                },
+                {
+                    "name": "flashing8.png"
+                },
+                {
+                    "name": "flashing9.png"
+                },
+                {
+                    "name": "flashing10.png"
+                },
+                {
+                    "name": "flashing11.png"
+                },
+                {
+                    "name": "flashing12.png"
+                },
+                {
+                    "name": "flashing13.png"
+                },
+                {
+                    "name": "flashing14.png"
+                },
+                {
+                    "name": "flashing15.png"
+                },
+                {
+                    "name": "flashing16.png"
+                },
+                {
+                    "name": "flashing17.png"
+                },
+                {
+                    "name": "flashing18.png"
+                },
+                {
+                    "name": "flashing19.png"
+                },
+                {
+                    "name": "flashing20.png"
+                },
+                {
+                    "name": "flashing21.png"
+                },
+                {
+                    "name": "flashing22.png"
+                },
+                {
+                    "name": "flashing23.png"
+                }
+            ],
+            "resClipWidth": 720,
+            "resClipHeight": 1280,
+            "referPoint": "standard",
+            "anchorXOffset": 0,
+            "anchorYOffset": 0,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        }
+    ]
+}

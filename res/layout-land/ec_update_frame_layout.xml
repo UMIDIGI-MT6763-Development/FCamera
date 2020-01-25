@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom|center" android:layout_width="@dimen/ec_update_frame_w" android:layout_height="@dimen/ec_update_frame_h"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ec_update_imgView" android:background="@anim/ec_update_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/freeme_iko_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/freeme_color_white" android:gravity="center" android:id="@id/no_network_tips" android:background="@drawable/mode_name_bg_nomal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/freeme_iko_no_network" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/freeme_color_white" android:gravity="center" android:id="@id/is_identifier" android:background="@drawable/mode_name_bg_nomal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/iko_is_identify" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/intent_review_imageview" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <ImageView android:layout_gravity="center" android:id="@id/handle_progressing" android:background="@drawable/iko_processing" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <com.freeme.camera.feature.mode.iko.MaskView android:id="@id/mask_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/continuous_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.freeme.camera.common.widget.RotateStrokeTextView android:enabled="false" android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/shot_num" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/manually_indicator_wide_angle_margin_bottom" android:maxLines="1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

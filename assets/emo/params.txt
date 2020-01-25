@@ -1,0 +1,94 @@
+{
+    "itemList": [
+        {
+            "resName": [
+                {
+                    "name": "emogun0.png"
+                },
+                {
+                    "name": "emogun1.png"
+                },
+                {
+                    "name": "emogun2.png"
+                },
+                {
+                    "name": "emogun3.png"
+                },
+                {
+                    "name": "emogun4.png"
+                },
+                {
+                    "name": "emogun5.png"
+                }
+            ],
+            "resClipWidth": 350,
+            "resClipHeight": 500,
+            "referPoint": "nose",
+            "anchorXOffset": 220,
+            "anchorYOffset": -350,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        },
+        {
+            "resName": [
+                {
+                    "name": "bianfu1.png"
+                }
+            ],
+            "resClipWidth": 100,
+            "resClipHeight": 150,
+            "referPoint": "leftEye",
+            "anchorXOffset": -172,
+            "anchorYOffset": 115,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        },
+        {
+            "resName": [
+                {
+                    "name": "bianfu2.png"
+                }
+            ],
+            "resClipWidth": 150,
+            "resClipHeight": 150,
+            "referPoint": "rightEye",
+            "anchorXOffset": 135,
+            "anchorYOffset": 260,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        },
+        {
+            "resName": [
+                {
+                    "name": "left_curve.png"
+                }
+            ],
+            "resClipWidth": 100,
+            "resClipHeight": 150,
+            "referPoint": "leftEye",
+            "anchorXOffset": -80,
+            "anchorYOffset": 200,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        },
+         {
+            "resName": [
+                {
+                    "name": "right_curve.png"
+                }
+            ],
+            "resClipWidth": 100,
+            "resClipHeight": 150,
+            "referPoint": "rightEye",
+            "anchorXOffset": 80,
+            "anchorYOffset": 200,
+            "anchorCXOffset": 0,
+            "anchorCYOffset": 0,
+            "frameSumDuration": 1000
+        }
+    ]
+}

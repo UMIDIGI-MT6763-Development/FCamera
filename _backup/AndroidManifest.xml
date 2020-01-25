@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" android:sharedUserId="com.freeme.camera.shareduserid" package="com.freeme.camera" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_MTK_MMHW"/>
+    <uses-permission android:name="mediatek.permission.ACCESS_MTK_MMHW"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="false"/>
+    <application android:allowBackup="true" android:appComponentFactory="android.support.v4.app.CoreComponentFactory" android:directBootAware="true" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher_camera" android:label="@string/camera_label" android:largeHeap="true" android:name="com.freeme.camera.CameraApplication" android:resizeableActivity="false" android:restoreAnyVersion="true" android:supportsRtl="true" android:theme="@style/ThemeCamera" android:usesCleartextTraffic="true">
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <meta-data android:name="android.max_aspect" android:value="2.1"/>
+        <meta-data android:name="com.baidu.lbsapi.API_KEY" android:value="sC4Vfs7VyYUOTqTOGH5zxovwhuEVwKGl"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboard|keyboardHidden|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:label="@string/camera_label" android:launchMode="singleTask" android:name="com.freeme.camera.CameraActivity" android:screenOrientation="portrait" android:taskAffinity="com.freeme.camera.CameraActivity" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.keyguard.layout" android:resource="@layout/keyguard_widget"/>
+        </activity>
+        <activity-alias android:icon="@mipmap/ic_launcher_camera" android:label="@string/camera_label" android:name="com.freeme.camera.CameraLauncher" android:targetActivity="com.freeme.camera.CameraActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:icon="@mipmap/ic_launcher_camera" android:label="@string/camera_label" android:name="com.freeme.camera.SecureCameraActivity" android:screenOrientation="portrait" android:taskAffinity="com.freeme.camera.SecureCameraActivity" android:visibleToInstantApps="true" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA_SECURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE_SECURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.keyguard.layout" android:resource="@layout/keyguard_widget"/>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:label="@string/camera_label" android:name="com.freeme.camera.CaptureActivity" android:screenOrientation="portrait" android:visibleToInstantApps="true" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:label="@string/video_camera_label" android:name="com.freeme.camera.VideoCamera" android:screenOrientation="portrait" android:targetActivity="com.freeme.camera.CaptureActivity" android:visibleToInstantApps="true">
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.freeme.camera.GalleryActivity" android:theme="@style/Theme.Gallery" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <activity android:name="com.freeme.camera.feature.mode.iko.IKOActivity" android:process=":remote" android:screenOrientation="portrait" android:theme="@style/Theme.Camera.Iko">
+            <intent-filter>
+                <action android:name="com.freeme.camera.iko.intent"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.freeme.elementscenter.ECMainActivity" android:process="system" android:screenOrientation="portrait" android:theme="@style/ECTheme">
+            <intent-filter>
+                <action android:name="freeme.intent.action.freeme.ec"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.freeme.camera.DisableCameraReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.freeme.camera.CameraAppService"/>
+        <service android:enabled="true" android:name="com.freeme.camera.common.location.LocationSecurityService">
+            <intent-filter>
+                <action android:name="com.freeme.camera.location.action"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:name="com.baidu.location.f" android:process=":remote"/>
+    </application>
+</manifest>

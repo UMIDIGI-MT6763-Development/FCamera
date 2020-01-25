@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.freeme.camera.ui.modepicker.RotateLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_gravity="center" android:id="@id/selector_item" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatImageView android:id="@id/image_view" android:layout_width="64.0dip" android:layout_height="64.0dip" android:scaleType="fitXY" android:layout_centerHorizontal="true" app:srcCompat="@drawable/ic_normal_mode_unselected" />
+            <TextView android:textSize="18.0dip" android:textColor="@android:color/white" android:id="@id/text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/image_view" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</com.freeme.camera.ui.modepicker.RotateLayout>
