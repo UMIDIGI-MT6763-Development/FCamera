@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.freeme.camera.common.widget.RotateLayout android:id="@id/sup_definition_rotate_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/sup_definition_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <TextView android:enabled="false" android:textAppearance="?android:textAppearanceMedium" android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/sup_definition_text" android:background="@drawable/mode_name_bg_nomal" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sup_definition_margin_top" android:maxLines="1" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
-    </RelativeLayout>
-</com.freeme.camera.common.widget.RotateLayout>
