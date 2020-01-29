@@ -1297,8 +1297,6 @@
     </style>
     <style name="WidgetFreemeCompoundButtonSwitch">
         <item name="android:background">@drawable/control_background_40dp_freeme</item>
-        <item name="android:textOn">@android:string/config_chooseAccountActivity</item>
-        <item name="android:textOff">@android:string/config_carrierAppInstallDialogComponent</item>
         <item name="android:thumb">@drawable/switch_thumb_freeme_anim</item>
         <item name="android:switchTextAppearance">@style/TextAppearanceFreemeWidgetSwitch</item>
         <item name="android:track">@drawable/switch_track_freeme</item>

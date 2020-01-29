@@ -17,11 +17,11 @@
 
 
 # static fields
-.field private static final DEBUG_ALL:Z = false
+.field private static final DEBUG_ALL:Z
 
-.field private static final DEBUG_ANY:Z = false
+.field private static final DEBUG_ANY:Z
 
-.field private static final DEBUG_XPATH_PARSE:Z = false
+.field private static final DEBUG_XPATH_PARSE:Z
 
 
 # instance fields

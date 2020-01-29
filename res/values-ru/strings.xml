@@ -141,4 +141,80 @@
     <string name="video_reach_size_limit">Достигнут предельный размер видео.</string>
     <string name="video_recording_error">Ошибка в процессе записи!</string>
     <string name="video_recording_not_available">Перед использованием видеокамеры остановите другие приложения записи.</string>
+
+    <string name="photo_dialog_title">Фото</string>
+    <string name="shortvideo_dialog_title">Short видео</string>
+
+    <string name="freeme_iko_error">IKO Ошибка</string>
+    <string name="freeme_iko_no_network">Нет сети, проверьте подключение</string>
+    <string name="freeme_iko_search">Поиск</string>
+    <string name="iko_cancel_title">Отмена</string>
+    <string name="iko_dialog_title">IKO</string>
+    <string name="iko_is_identify">Автоматическая идентификация</string>
+    <string name="iko_not_support">Передняя камера не поддерживает интеллектуальные знания</string>
+    <string name="iko_recommend_news">Следующее рекомендуется для вас:</string>
+    <string name="iko_title">Информация</string>
+    <string name="not_search_image">Изображения и информация не найдены？</string>
+    <string name="try_search_image">Переопределить</string>
+    <string name="object_tip">Пожалуйста, наведите объектив на объект</string>
+
+    <string name="pref_facebeauty_eye_enlarge_title">Увеличить</string>
+    <string name="pref_facebeauty_face_slim_title">Стройное</string>
+    <string name="pref_facebeauty_level_title">Красота</string>
+    <string name="pref_facebeauty_skin_toning_title">Уход за кожей</string>
+
+    <string name="micro_len_view_text">Режим только Микро</string>
+    <string name="micro_len_view_toast">Следует использовать диапазон 3 см</string>
+    <string name="wide_angle_view_text">Ультра широкоугольный режим</string>
+
+    <string name="aicamera_tip_toast">Умный режим фото был открыт</string>
+    <string name="aicamera_tip_scene">Интеллектуальная идентификация 13 сцен, легко делать хорошие фотографии.</string>
+    <string name="aicamera_tip_title">Введение</string>
+    <string name="ai_camera_scene_animal">Животные</string>
+    <string name="ai_camera_scene_building">Здания</string>
+    <string name="ai_camera_scene_car">Авто</string>
+    <string name="ai_camera_scene_flower">Цветы</string>
+    <string name="ai_camera_scene_food">Еда</string>
+    <string name="ai_camera_scene_night">Ночь</string>
+    <string name="ai_camera_scene_people">Люди</string>
+    <string name="ai_camera_scene_plant">Растения</string>
+    <string name="ai_camera_scene_scenery">Декорации</string>
+    <string name="ai_camera_scene_sky">Небо</string>
+    <string name="ai_camera_scene_snow">Снег</string>
+    <string name="ai_camera_scene_sunset">Закат</string>
+    <string name="ai_camera_scene_text">Текст</string>
+    <string name="ai_camera_scene_unknown">Неизвестный</string>
+    <string name="aicamera_tip_checkbox">Не напоминай снова.</string>
+
+    <string name="freeme_settings_capture_category">Фото</string>
+    <string name="volume_capture_content_description">Съемка кнопками громкости</string>
+    <string name="volume_capture_title">Съемка кнопками громкости</string>
+    <string name="touch_capture_content_description">Съемка сенсором</string>
+    <string name="touch_capture_title">Съемка сенсором</string>
+    <string name="self_timer_entry_3">3 с</string>
+    <string name="face_detection_content_description">Обнаружение лица</string>
+    <string name="face_detection_title">Обнаружение лица</string>
+    <string name="grid_line_content_description">Линия сетки</string>
+    <string name="grid_line_title">Линия сетки</string>
+    <string name="zsd_content_description">Фото без задержки ZSD</string>
+    <string name="zsd_title">Фото без задержки ZSD</string>
+    <string name="shutter_sound_content_description">Звук затвора</string>
+    <string name="shutter_sound_title">Звук затвора</string>
+    <string name="focus_sound_content_description">Звук фокуса</string>
+    <string name="focus_sound_title">Звук фокуса</string>
+
+    <string name="freeme_settings_general_category">Основное</string>
+    <string name="save_location_content_description">Сохранить местоположение</string>
+    <string name="save_location_title">Сохранить местоположение</string>
+    <string name="save_sdcard_content_description">Сохранить на SDCard</string>
+    <string name="save_sdcard_title">Сохранить на SDCard</string>
+    <string name="auto_exit_content_description">Авто закрытие камеры</string>
+    <string name="auto_exit_title">Авто закрытие камеры</string>
+    <string name="about_camera_content_description">О камере</string>
+    <string name="about_camera_title">О камере</string>
+    <string name="freemeabout_current_version">Текущая версия</string>
+
+    <string name="restore_settings_content_description">Восстановить настройки</string>
+    <string name="restore_settings_title">Восстановить настройки</string>
+    <string name="confirm_restore_message">"Продолжить восстановление настроек камеры по умолчанию?"</string>
 </resources>

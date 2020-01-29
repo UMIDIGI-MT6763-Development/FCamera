@@ -15,7 +15,7 @@
 
 
 # static fields
-.field private static final debug:Z = false
+.field private static final debug:Z
 
 
 # instance fields

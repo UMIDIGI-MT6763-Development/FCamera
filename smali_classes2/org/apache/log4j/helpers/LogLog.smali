@@ -14,9 +14,9 @@
 
 .field private static final WARN_PREFIX:Ljava/lang/String; = "log4j:WARN "
 
-.field protected static debugEnabled:Z = false
+.field protected static debugEnabled:Z
 
-.field private static quietMode:Z = false
+.field private static quietMode:Z
 
 
 # direct methods

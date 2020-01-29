@@ -3,15 +3,15 @@
 
 
 # static fields
-.field public static final a:Z = false
+.field public static final a:Z
 
-.field public static final do:Z = false
+.field public static final do:Z
 
-.field public static final for:Z = false
+.field public static final for:Z
 
-.field public static final if:Z = false
+.field public static final if:Z
 
-.field public static final int:Z = false
+.field public static final int:Z
 
 
 # direct methods

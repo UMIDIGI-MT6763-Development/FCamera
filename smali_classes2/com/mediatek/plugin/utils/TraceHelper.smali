@@ -6,7 +6,7 @@
 # static fields
 .field private static final TAG:Ljava/lang/String; = "PluginManager/TraceHelper"
 
-.field private static sHasCheck:Z = false
+.field private static sHasCheck:Z
 
 .field private static sSupportTrace:Z
 

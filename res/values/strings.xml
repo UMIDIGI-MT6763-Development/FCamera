@@ -105,6 +105,7 @@
     <string name="countdown_timer_duration_3s">Countdown timer duration is set to 3 seconds</string>
     <string name="countdown_timer_off">Countdown timer is off</string>
     <string name="create_tiny_planet">Create Tiny Planet</string>
+    <item type="string" name="APKTOOL_DUMMY_69">false</item>
     <string name="dc_disable">敬请期待</string>
     <string name="dc_install">安装</string>
     <string name="dc_installed">已安装</string>
@@ -179,6 +180,7 @@
     <string name="ec_watermark_regards">情意</string>
     <string name="ec_watermark_selfie">自拍</string>
     <string name="ec_watermark_travel">旅行</string>
+    <item type="string" name="APKTOOL_DUMMY_b4">false</item>
     <string name="eis_content_description">EIS</string>
     <string name="eis_title">EIS</string>
     <string name="elements_center">素材下载</string>
@@ -221,11 +223,11 @@
     <string name="freemeabout_current_version">Current version</string>
     <string name="freemeabout_customer_number">Customer number</string>
     <string name="freemeabout_detail_msg">Details</string>
-    <string name="freemeabout_droi">Copyright©2019, Droi .All Rights Reserved</string>
+    <string name="freemeabout_droi">UMIDIGI A5 Pro / Modification from Hadenix</string>
     <string name="freemeabout_official_forum">Official forum</string>
-    <string name="freemeabout_official_forum_value">http://bbs.droi.com</string>
+    <string name="freemeabout_official_forum_value">https://t.me/UMIDIGIA5Pro</string>
     <string name="freemeabout_official_website">Official Website</string>
-    <string name="freemeabout_official_website_value">www.freemeos.com</string>
+    <string name="freemeabout_official_website_value">https://t.me/UMIDIGIA5Pro</string>
     <string name="freemeabout_settings">Settings</string>
     <string name="gallery_app_name">Gallery</string>
     <string name="grid_line_content_description">Grid Line</string>
@@ -372,6 +374,8 @@
     <string name="refocus_date_content_description">Lens blur taken on %s</string>
     <string name="restore_settings_content_description">Restore Settings</string>
     <string name="restore_settings_title">Restore Settings</string>
+    <item type="string" name="APKTOOL_DUMMY_176">false</item>
+    <item type="string" name="APKTOOL_DUMMY_177">false</item>
     <string name="save_location_content_description">Save Location</string>
     <string name="save_location_title">Save Location</string>
     <string name="save_sdcard_content_description">Save Sdcard</string>
@@ -393,6 +397,7 @@
     <string name="self_timer_entry_3">3 seconds</string>
     <string name="self_timer_entry_off">Off</string>
     <string name="self_timer_title">Self timer</string>
+    <item type="string" name="APKTOOL_DUMMY_18d">false</item>
     <string name="setting_google_help_and_feedback">Help &amp; feedback</string>
     <string name="setting_title">Settings</string>
     <string name="share">Share</string>
@@ -403,6 +408,7 @@
     <string name="share_freeme_item_title">分享Freeme OS</string>
     <string name="share_to">Share to</string>
     <string name="shortvideo_dialog_title">ShortVideo</string>
+    <item type="string" name="APKTOOL_DUMMY_198">false</item>
     <string name="shutter_sound_content_description">Shutter Sound</string>
     <string name="shutter_sound_title">Shutter Sound</string>
     <string name="shutter_speed_content_description">Shutter speed</string>
@@ -428,6 +434,7 @@
     <string name="title">Title</string>
     <string name="touch_capture_content_description">Touch Capture</string>
     <string name="touch_capture_title">Touch Capture</string>
+    <item type="string" name="APKTOOL_DUMMY_1b2">false</item>
     <string name="try_search_image">Please re-identify</string>
     <string name="undo">UNDO</string>
     <string name="unit_mm">mm</string>
@@ -454,11 +461,4 @@
     <string name="width">Width</string>
     <string name="zsd_content_description">ZSD</string>
     <string name="zsd_title">ZSD</string>
-    <item type="string" name="APKTOOL_DUMMY_69">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_176">false</item>
-    <item type="string" name="APKTOOL_DUMMY_177">false</item>
-    <item type="string" name="APKTOOL_DUMMY_18d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_198">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1b2">false</item>
 </resources>

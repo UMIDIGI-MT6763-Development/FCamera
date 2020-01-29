@@ -8,7 +8,7 @@
 
 .field public static final isContinouShot:Z = true
 
-.field public static isFakeFocus:Z = false
+.field public static isFakeFocus:Z
 
 
 # direct methods

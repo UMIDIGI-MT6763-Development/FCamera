@@ -26,7 +26,7 @@
 # static fields
 .field private static final TAG:Ljava/lang/String; = "ViewTarget"
 
-.field private static isTagUsedAtLeastOnce:Z = false
+.field private static isTagUsedAtLeastOnce:Z
 
 .field private static tagId:Ljava/lang/Integer;
 

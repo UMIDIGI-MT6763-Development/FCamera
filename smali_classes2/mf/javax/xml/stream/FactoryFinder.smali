@@ -12,9 +12,9 @@
 
 
 # static fields
-.field static cacheProps:Ljava/util/Properties; = null
+.field static cacheProps:Ljava/util/Properties;
 
-.field private static debug:Z = false
+.field private static debug:Z
 
 .field static volatile firstTime:Z
 

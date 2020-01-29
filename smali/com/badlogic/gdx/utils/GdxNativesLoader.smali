@@ -4,7 +4,7 @@
 
 
 # static fields
-.field public static disableNativesLoading:Z = false
+.field public static disableNativesLoading:Z
 
 .field private static nativesLoaded:Z
 

@@ -15,9 +15,9 @@
 
 
 # static fields
-.field private static final DEBUG:Z = false
+.field private static final DEBUG:Z
 
-.field private static final DEBUG_VALIDATE_CONTENT:Z = false
+.field private static final DEBUG_VALIDATE_CONTENT:Z
 
 .field private static time:J
 

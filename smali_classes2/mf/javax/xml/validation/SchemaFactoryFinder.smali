@@ -16,9 +16,9 @@
 
 .field private static final SERVICE_ID:Ljava/lang/String;
 
-.field private static cacheProps:Ljava/util/Properties; = null
+.field private static cacheProps:Ljava/util/Properties;
 
-.field private static debug:Z = false
+.field private static debug:Z
 
 .field private static volatile firstTime:Z
 

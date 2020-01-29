@@ -15,9 +15,9 @@
 
 
 # static fields
-.field private static fgThrowableInitCauseMethod:Ljava/lang/reflect/Method; = null
+.field private static fgThrowableInitCauseMethod:Ljava/lang/reflect/Method;
 
-.field private static fgThrowableMethodsAvailable:Z = false
+.field private static fgThrowableMethodsAvailable:Z
 
 
 # direct methods

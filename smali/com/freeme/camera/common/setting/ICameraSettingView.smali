@@ -4,7 +4,7 @@
 
 
 # static fields
-.field public static final JUST_DISABLE_UI_WHEN_NOT_SELECTABLE:Z = false
+.field public static final JUST_DISABLE_UI_WHEN_NOT_SELECTABLE:Z
 
 
 # virtual methods

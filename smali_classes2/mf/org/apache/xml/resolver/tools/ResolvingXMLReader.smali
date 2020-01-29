@@ -6,7 +6,7 @@
 # static fields
 .field public static namespaceAware:Z = true
 
-.field public static validating:Z = false
+.field public static validating:Z
 
 
 # direct methods

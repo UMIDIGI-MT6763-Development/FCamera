@@ -4,7 +4,7 @@
 
 
 # static fields
-.field public static suppressExplanation:Z = false
+.field public static suppressExplanation:Z
 
 
 # instance fields

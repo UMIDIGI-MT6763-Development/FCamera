@@ -21,7 +21,7 @@
 
 
 # static fields
-.field public static logWarning:Z = false
+.field public static logWarning:Z
 
 
 # instance fields

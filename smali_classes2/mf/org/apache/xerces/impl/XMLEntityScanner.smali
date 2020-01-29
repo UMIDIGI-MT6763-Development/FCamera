@@ -7,9 +7,9 @@
 
 
 # static fields
-.field private static final DEBUG_BUFFER:Z = false
+.field private static final DEBUG_BUFFER:Z
 
-.field private static final DEBUG_ENCODINGS:Z = false
+.field private static final DEBUG_ENCODINGS:Z
 
 .field private static final END_OF_DOCUMENT_ENTITY:Ljava/io/EOFException;
 

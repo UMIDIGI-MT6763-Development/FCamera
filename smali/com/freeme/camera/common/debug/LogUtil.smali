@@ -30,7 +30,7 @@
 
 .field private static sPersistLogLevel:I = -0x1
 
-.field private static sUserDebugLogAll:Z = false
+.field private static sUserDebugLogAll:Z
 
 
 # direct methods

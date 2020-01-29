@@ -15,15 +15,15 @@
 
 
 # static fields
-.field private static fgCharsetCanEncodeMethod:Ljava/lang/reflect/Method; = null
+.field private static fgCharsetCanEncodeMethod:Ljava/lang/reflect/Method;
 
-.field private static fgCharsetEncoderCanEncodeMethod:Ljava/lang/reflect/Method; = null
+.field private static fgCharsetEncoderCanEncodeMethod:Ljava/lang/reflect/Method;
 
-.field private static fgCharsetForNameMethod:Ljava/lang/reflect/Method; = null
+.field private static fgCharsetForNameMethod:Ljava/lang/reflect/Method;
 
-.field private static fgCharsetNewEncoderMethod:Ljava/lang/reflect/Method; = null
+.field private static fgCharsetNewEncoderMethod:Ljava/lang/reflect/Method;
 
-.field private static fgNIOCharsetAvailable:Z = false
+.field private static fgNIOCharsetAvailable:Z
 
 
 # direct methods

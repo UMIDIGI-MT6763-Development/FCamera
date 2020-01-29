@@ -24,7 +24,7 @@
 
 .field private static final base64Alphabet:[B
 
-.field private static final fDebug:Z = false
+.field private static final fDebug:Z
 
 .field private static final lookUpBase64Alphabet:[C
 

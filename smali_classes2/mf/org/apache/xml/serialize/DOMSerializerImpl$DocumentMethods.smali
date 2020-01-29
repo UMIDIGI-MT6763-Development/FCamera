@@ -15,13 +15,13 @@
 
 
 # static fields
-.field private static fgDocumentGetInputEncodingMethod:Ljava/lang/reflect/Method; = null
+.field private static fgDocumentGetInputEncodingMethod:Ljava/lang/reflect/Method;
 
-.field private static fgDocumentGetXmlEncodingMethod:Ljava/lang/reflect/Method; = null
+.field private static fgDocumentGetXmlEncodingMethod:Ljava/lang/reflect/Method;
 
-.field private static fgDocumentGetXmlVersionMethod:Ljava/lang/reflect/Method; = null
+.field private static fgDocumentGetXmlVersionMethod:Ljava/lang/reflect/Method;
 
-.field private static fgDocumentMethodsAvailable:Z = false
+.field private static fgDocumentMethodsAvailable:Z
 
 
 # direct methods

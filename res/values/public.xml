@@ -2120,14 +2120,13 @@
     <public type="layout" name="wide_angle_switcher" id="0x7f0b009f" />
     <public type="layout" name="wide_angle_view" id="0x7f0b00a0" />
     <public type="layout" name="zoom_view" id="0x7f0b00a1" />
+    <public type="layout" name="APKTOOL_DUMMY_95" id="0x7f0b0095" />
     <public type="layout" name="lomo_effects" id="0x7f0b0068" />
     <public type="menu" name="filmstrip_context_menu" id="0x7f0c0000" />
     <public type="menu" name="filmstrip_menu" id="0x7f0c0001" />
     <public type="menu" name="main" id="0x7f0c0002" />
     <public type="menu" name="manager" id="0x7f0c0003" />
     <public type="menu" name="share_freeme" id="0x7f0c0004" />
-    <public type="mipmap" name="ic_launcher_camera" id="0x7f0d0000" />
-    <public type="mipmap" name="switch_bg_holo_dark" id="0x7f0d0001" />
     <public type="raw" name="beautyfacemode" id="0x7f0e0000" />
     <public type="raw" name="beep_once" id="0x7f0e0001" />
     <public type="raw" name="beep_twice" id="0x7f0e0002" />
@@ -2243,6 +2242,7 @@
     <public type="string" name="countdown_timer_duration_3s" id="0x7f0f0066" />
     <public type="string" name="countdown_timer_off" id="0x7f0f0067" />
     <public type="string" name="create_tiny_planet" id="0x7f0f0068" />
+    <public type="string" name="APKTOOL_DUMMY_69" id="0x7f0f0069" />
     <public type="string" name="dc_disable" id="0x7f0f006a" />
     <public type="string" name="dc_install" id="0x7f0f006b" />
     <public type="string" name="dc_installed" id="0x7f0f006c" />
@@ -2317,6 +2317,7 @@
     <public type="string" name="ec_watermark_regards" id="0x7f0f00b1" />
     <public type="string" name="ec_watermark_selfie" id="0x7f0f00b2" />
     <public type="string" name="ec_watermark_travel" id="0x7f0f00b3" />
+    <public type="string" name="APKTOOL_DUMMY_b4" id="0x7f0f00b4" />
     <public type="string" name="eis_content_description" id="0x7f0f00b5" />
     <public type="string" name="eis_title" id="0x7f0f00b6" />
     <public type="string" name="elements_center" id="0x7f0f00b7" />
@@ -2510,6 +2511,8 @@
     <public type="string" name="refocus_date_content_description" id="0x7f0f0173" />
     <public type="string" name="restore_settings_content_description" id="0x7f0f0174" />
     <public type="string" name="restore_settings_title" id="0x7f0f0175" />
+    <public type="string" name="APKTOOL_DUMMY_176" id="0x7f0f0176" />
+    <public type="string" name="APKTOOL_DUMMY_177" id="0x7f0f0177" />
     <public type="string" name="save_location_content_description" id="0x7f0f0178" />
     <public type="string" name="save_location_title" id="0x7f0f0179" />
     <public type="string" name="save_sdcard_content_description" id="0x7f0f017a" />
@@ -2531,6 +2534,7 @@
     <public type="string" name="self_timer_entry_3" id="0x7f0f018a" />
     <public type="string" name="self_timer_entry_off" id="0x7f0f018b" />
     <public type="string" name="self_timer_title" id="0x7f0f018c" />
+    <public type="string" name="APKTOOL_DUMMY_18d" id="0x7f0f018d" />
     <public type="string" name="setting_google_help_and_feedback" id="0x7f0f018e" />
     <public type="string" name="setting_title" id="0x7f0f018f" />
     <public type="string" name="share" id="0x7f0f0190" />
@@ -2541,6 +2545,7 @@
     <public type="string" name="share_freeme_item_title" id="0x7f0f0195" />
     <public type="string" name="share_to" id="0x7f0f0196" />
     <public type="string" name="shortvideo_dialog_title" id="0x7f0f0197" />
+    <public type="string" name="APKTOOL_DUMMY_198" id="0x7f0f0198" />
     <public type="string" name="shutter_sound_content_description" id="0x7f0f0199" />
     <public type="string" name="shutter_sound_title" id="0x7f0f019a" />
     <public type="string" name="shutter_speed_content_description" id="0x7f0f019b" />
@@ -2560,11 +2565,13 @@
     <public type="string" name="speech_facebeauty_tips" id="0x7f0f01a9" />
     <public type="string" name="status_bar_notification_info_overflow" id="0x7f0f01aa" />
     <public type="string" name="storage_full" id="0x7f0f01ab" />
+    <public type="string" name="supdefinition_text" id="0x7f0f01ac" />
     <public type="string" name="super_definition_dialog_title" id="0x7f0f01ad" />
     <public type="string" name="time" id="0x7f0f01ae" />
     <public type="string" name="title" id="0x7f0f01af" />
     <public type="string" name="touch_capture_content_description" id="0x7f0f01b0" />
     <public type="string" name="touch_capture_title" id="0x7f0f01b1" />
+    <public type="string" name="APKTOOL_DUMMY_1b2" id="0x7f0f01b2" />
     <public type="string" name="try_search_image" id="0x7f0f01b3" />
     <public type="string" name="undo" id="0x7f0f01b4" />
     <public type="string" name="unit_mm" id="0x7f0f01b5" />
@@ -2591,13 +2598,6 @@
     <public type="string" name="width" id="0x7f0f01ca" />
     <public type="string" name="zsd_content_description" id="0x7f0f01cb" />
     <public type="string" name="zsd_title" id="0x7f0f01cc" />
-    <public type="string" name="APKTOOL_DUMMY_69" id="0x7f0f0069" />
-    <public type="string" name="APKTOOL_DUMMY_b4" id="0x7f0f00b4" />
-    <public type="string" name="APKTOOL_DUMMY_176" id="0x7f0f0176" />
-    <public type="string" name="APKTOOL_DUMMY_177" id="0x7f0f0177" />
-    <public type="string" name="APKTOOL_DUMMY_18d" id="0x7f0f018d" />
-    <public type="string" name="APKTOOL_DUMMY_198" id="0x7f0f0198" />
-    <public type="string" name="APKTOOL_DUMMY_1b2" id="0x7f0f01b2" />
     <public type="style" name="AVLoadingIndicatorView" id="0x7f100000" />
     <public type="style" name="AVLoadingIndicatorView.Large" id="0x7f100001" />
     <public type="style" name="AVLoadingIndicatorView.Small" id="0x7f100002" />

@@ -15,9 +15,9 @@
 
 
 # static fields
-.field private static fgCanConvertMethod:Ljava/lang/reflect/Method; = null
+.field private static fgCanConvertMethod:Ljava/lang/reflect/Method;
 
-.field private static fgConvertersAvailable:Z = false
+.field private static fgConvertersAvailable:Z
 
 .field private static fgGetConverterMethod:Ljava/lang/reflect/Method;
 

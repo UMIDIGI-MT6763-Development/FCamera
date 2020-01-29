@@ -13,9 +13,9 @@
 
 
 # static fields
-.field public static final DEFAULT_SHADOW_GRAMMAR_POOL:Z = false
+.field public static final DEFAULT_SHADOW_GRAMMAR_POOL:Z
 
-.field public static final DEFAULT_SHADOW_SYMBOL_TABLE:Z = false
+.field public static final DEFAULT_SHADOW_SYMBOL_TABLE:Z
 
 
 # instance fields

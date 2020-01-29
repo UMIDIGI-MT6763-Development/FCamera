@@ -12,7 +12,7 @@
 
 
 # static fields
-.field public static final DEBUG:Z = false
+.field public static final DEBUG:Z
 
 .field private static final TAG:Lcom/freeme/camera/common/debug/LogUtil$Tag;
 

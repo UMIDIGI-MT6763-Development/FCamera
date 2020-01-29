@@ -5,7 +5,7 @@
 # static fields
 .field private static final a:Ljava/lang/String; = "EnvDrawText"
 
-.field public static bBmpChange:Z = false
+.field public static bBmpChange:Z
 
 .field public static bmp:Landroid/graphics/Bitmap;
 

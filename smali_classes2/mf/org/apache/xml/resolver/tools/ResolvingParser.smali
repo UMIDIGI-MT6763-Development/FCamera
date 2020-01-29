@@ -12,9 +12,9 @@
 # static fields
 .field public static namespaceAware:Z = true
 
-.field public static suppressExplanation:Z = false
+.field public static suppressExplanation:Z
 
-.field public static validating:Z = false
+.field public static validating:Z
 
 
 # instance fields
