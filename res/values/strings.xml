@@ -223,10 +223,10 @@
     <string name="freemeabout_current_version">Current version</string>
     <string name="freemeabout_customer_number">Customer number</string>
     <string name="freemeabout_detail_msg">Details</string>
-    <string name="freemeabout_droi">UMIDIGI A5 Pro / Modification from Hadenix</string>
-    <string name="freemeabout_official_forum">Official forum</string>
-    <string name="freemeabout_official_forum_value">https://t.me/UMIDIGIA5Pro</string>
-    <string name="freemeabout_official_website">Official Website</string>
+    <string name="freemeabout_droi">Modification from Hadenix</string>
+    <string name="freemeabout_official_forum">Official Telegram Chat</string>
+    <string name="freemeabout_official_forum_value">https://t.me/umidigia5prochat</string>
+    <string name="freemeabout_official_website">UMIDIGI A5 Pro - Updates</string>
     <string name="freemeabout_official_website_value">https://t.me/UMIDIGIA5Pro</string>
     <string name="freemeabout_settings">Settings</string>
     <string name="gallery_app_name">Gallery</string>

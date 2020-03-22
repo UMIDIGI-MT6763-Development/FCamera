@@ -109,7 +109,7 @@
 
     move-result-object v0
 
-    const-string v1, "https://mini.eastday.com/channels/index.html?type=toutiao&qid=qid11113"
+    const-string v1, "https://zen.yandex.ru"
 
     invoke-virtual {v0, v1}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
 

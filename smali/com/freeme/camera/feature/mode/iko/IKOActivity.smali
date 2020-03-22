@@ -19,7 +19,7 @@
 # static fields
 .field private static final IKO_IMAGE_SEARCH_URL:Ljava/lang/String; = "com.ume.browser"
 
-.field private static final INFO_FLOW_ADDRESS_URL:Ljava/lang/String; = "https://mini.eastday.com/channels/index.html?type=toutiao&qid=qid11113"
+.field private static final INFO_FLOW_ADDRESS_URL:Ljava/lang/String; = "https://zen.yandex.ru"
 
 
 # instance fields
@@ -269,7 +269,7 @@
 
     iget-object v0, p0, Lcom/freeme/camera/feature/mode/iko/IKOActivity;->mWebViewSuccess:Landroid/webkit/WebView;
 
-    const-string v1, "https://mini.eastday.com/channels/index.html?type=toutiao&qid=qid11113"
+    const-string v1, "https://zen.yandex.ru"
 
     invoke-virtual {v0, v1}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
 

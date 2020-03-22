@@ -39,16 +39,16 @@
     <string name="can_not_use_storage">SD-карта недоступна</string>
     <string name="continuous_saving_pictures">Сохранение %1$d изображений</string>
     <string name="dual_camera_lens_covered_toast">Объективзакрыт.</string>
-    <string name="dual_camera_low_constract_toast">Низкаяконтрастностьможетповлиятьнаэффектысдвоеннойкамеры.</string>
-    <string name="dual_camera_lowlight_toast">Низкаяосвещенностьможетповлиятьнаэффектысдвоеннойкамеры.</string>
-    <string name="dual_camera_too_close_toast">Слишкомблизкокобъекту,чтобыполучитьэффектысдвоеннойкамеры.</string>
+    <string name="dual_camera_low_constract_toast">Низкая контрастность может повлиять на эффекты сдвоенной камеры.</string>
+    <string name="dual_camera_lowlight_toast">Низкая освещенность может повлиять на эффекты сдвоенной камеры.</string>
+    <string name="dual_camera_too_close_toast">Слишком близко к объекту,чтобы получить эффекты сдвоенной камеры.</string>
     <string name="microphone_title">Микрофон.</string>
     <string name="mode_fragment_title">Режимы</string>
     <string name="noise_reduction_title">Шумоподавление</string>
     <string name="normal_mode_title">Нормальное</string>
     <string name="pano_dialog_title">Панорама</string>
-    <string name="panorama_guide_capture">Переместитеустройство,чтобыперекрытьдвелинии</string>
-    <string name="panorama_guide_choose_direction">Переместитесвоеустройствовнаправленииобъектасъемки</string>
+    <string name="panorama_guide_capture">Переместите устройство,чтобы перекрыть двелинии</string>
+    <string name="panorama_guide_choose_direction">Переместите свое устройство в направлении объекта съемки</string>
     <string name="panorama_guide_shutter">Нажмите кнопку спуска для панорамного снимка в режиме</string>
     <string name="pref_camera_antibanding_entry_50hz">50 Гц</string>
     <string name="pref_camera_antibanding_entry_60hz">60 Гц</string>
@@ -108,12 +108,12 @@
     <string name="pref_camera_whitebalance_entry_twilight">Сумерки</string>
     <string name="pref_camera_whitebalance_entry_warm_fluorescent">Люмин. осв. (тепл.)</string>
     <string name="pref_camera_whitebalance_title">Баланс белого</string>
-    <string name="pref_thermal_dialog_content">Температураустройстваслишкомвысокая,камераавтоматическизавершитсвоюработучерез30секунд.Отложитеиспользованиекамерынанекотороевремя.</string>
-    <string name="pref_thermal_dialog_content_launch">Температураустройстваслишкомвысокая,отложитеиспользованиекамеры.</string>
+    <string name="pref_thermal_dialog_content">Температура устройства слишком высокая,камера автоматическиз авершит свою работу через 30 с.Отложите использование камеры на некоторое время.</string>
+    <string name="pref_thermal_dialog_content_launch">Температура устройства слишком высокая,отложите использование камеры.</string>
     <string name="pref_thermal_dialog_title">Предупреждение</string>
     <string name="pref_thermal_preview_toast">Для продолжения коснитесь экрана</string>
     <string name="saving_dialog_default_string">Сохранение...</string>
-    <string name="sdof_mode_name">Стерео</string>
+    <string name="sdof_mode_name">Портрет</string>
     <string name="sdof_picture_size_title">Размер фото</string>
     <string name="sdof_video_quality_title">Качество видео</string>
     <string name="search_menu_title">Поиск</string>
@@ -217,4 +217,9 @@
     <string name="restore_settings_content_description">Восстановить настройки</string>
     <string name="restore_settings_title">Восстановить настройки</string>
     <string name="confirm_restore_message">"Продолжить восстановление настроек камеры по умолчанию?"</string>
+
+    <string name="share_to">Поделиться с</string>
+    <string name="delete_selection_one">Удалить выбранный элемент?</string>
+    <string name="details">Детали</string>
+    <string name="freemeabout_detail_msg">Детали</string>
 </resources>
