@@ -212,7 +212,7 @@
     <string name="auto_exit_title">Авто закрытие камеры</string>
     <string name="about_camera_content_description">О камере</string>
     <string name="about_camera_title">О камере</string>
-    <string name="freemeabout_current_version">Текущая версия</string>
+    <string name="freemeabout_current_version">Текущая версия:</string>
 
     <string name="restore_settings_content_description">Восстановить настройки</string>
     <string name="restore_settings_title">Восстановить настройки</string>
@@ -222,4 +222,10 @@
     <string name="delete_selection_one">Удалить выбранный элемент?</string>
     <string name="details">Детали</string>
     <string name="freemeabout_detail_msg">Детали</string>
+
+    <string name="low_battery_disable_flash">Низкий заряд батареи. Фонарик не доступен.</string>
+    <string name="low_battery_disable_torch">Фонарик недоступен при низком заряде батареи!</string>
+    <string name="qr_low_battery_disable_torch">Фонарик недоступен при низком заряде батареи!</string>
+
+    <string name="cannot_connect_camera_new">"Не удается подключиться к камере. Пожалуйста, не забудьте закрыть другие приложения, которые могут использовать камеру или фонарик."</string>
 </resources>
